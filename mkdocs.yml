@@ -1,0 +1,31 @@
+site_name: Ansible Tutorial
+repo_url: https://github.com/infn-bari-school/ansible-tutorial
+site_author: Marica Antonacci - marica.antonacci@ba.infn.it
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: green
+  logo: assets/logo_infn.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences 
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.details
+  - attr_list
+   
+nav:
+  - Basic concepts: 'intro.md'
+  - Playbooks: 'playbooks.md'
+  - Roles: 'roles.md'
+ 
+copyright: Copyright &copy; 2022 INFN
